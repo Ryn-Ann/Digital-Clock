@@ -13,7 +13,7 @@ import time
 clock_window = Tk()
 clock_window.title("Digital Clock by Noor")
 clock_window.geometry("430x175")
-clock_window.resizable(1, 1)
+clock_window.resizable(0, 0)
 
 # Define the clock's font, colour, border width and background colour
 clock_font = ("Segoe UI", 72, "bold")
